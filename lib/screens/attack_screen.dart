@@ -138,7 +138,6 @@ class _Attack_ScreenState extends State<Attack_Screen> {
               Expanded(
                 child: Container(
                   child: GridView.builder(
-                      physics: NeverScrollableScrollPhysics(),
                       itemCount: rows*cols,
                       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: cols),
                       itemBuilder: (context, index){
@@ -166,7 +165,6 @@ class _Attack_ScreenState extends State<Attack_Screen> {
                 child: Container(
                   decoration: BoxDecoration(),
                   child: GridView.builder(
-                      physics: NeverScrollableScrollPhysics(),
                       itemCount: rows*cols,
                       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: cols),
                       itemBuilder: (context, index){
