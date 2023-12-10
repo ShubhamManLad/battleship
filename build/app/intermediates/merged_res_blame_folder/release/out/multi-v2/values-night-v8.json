@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.battleship.app-mergeReleaseResources-12:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.battleship.app-mergeReleaseResources-14:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Shubham\\AndroidStudioProjects\\battleship\\android\\app\\src\\main\\res\\values-night\\styles.xml",

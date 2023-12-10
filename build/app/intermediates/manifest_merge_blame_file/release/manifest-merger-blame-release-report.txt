@@ -19,172 +19,183 @@
 14-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Shubham\.gradle\caches\transforms-3\cdcc585bf5bfb7b79234bf5eb0173e42\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:10:5-79
 14-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Shubham\.gradle\caches\transforms-3\cdcc585bf5bfb7b79234bf5eb0173e42\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:10:22-76
 15
-16    <application
-17        android:name="io.flutter.app.FlutterMultiDexApplication"
-17-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:6:9-42
-18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-18-->[androidx.core:core:1.6.0] C:\Users\Shubham\.gradle\caches\transforms-3\d08c73bfb05384f2e52578171dbd141e\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
-19        android:icon="@mipmap/ic_launcher"
-19-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:7:9-43
-20        android:label="battleship" >
-20-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:5:9-35
-21        <activity
-21-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:8:9-28:20
-22            android:name="com.example.battleship.MainActivity"
-22-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:9:13-41
-23            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-23-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:13:13-163
-24            android:exported="true"
-24-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:10:13-36
-25            android:hardwareAccelerated="true"
-25-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:14:13-47
-26            android:launchMode="singleTop"
-26-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:11:13-43
-27            android:theme="@style/LaunchTheme"
-27-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:12:13-47
-28            android:windowSoftInputMode="adjustResize" >
-28-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:15:13-55
-29
-30            <!--
-31                 Specifies an Android theme to apply to this Activity as soon as
-32                 the Android process has started. This theme is visible to the user
-33                 while the Flutter UI initializes. After that, this theme continues
-34                 to determine the Window background behind the Flutter UI.
-35            -->
-36            <meta-data
-36-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:20:13-23:17
-37                android:name="io.flutter.embedding.android.NormalTheme"
-37-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:21:15-70
-38                android:resource="@style/NormalTheme" />
-38-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:22:15-52
-39
-40            <intent-filter>
-40-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:24:13-27:29
-41                <action android:name="android.intent.action.MAIN" />
-41-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:25:17-68
-41-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:25:25-66
-42
-43                <category android:name="android.intent.category.LAUNCHER" />
-43-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:26:17-76
-43-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:26:27-74
-44            </intent-filter>
-45        </activity>
-46        <!--
-47             Don't delete the meta-data below.
-48             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-49        -->
-50        <meta-data
-50-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:31:9-33:33
-51            android:name="flutterEmbedding"
-51-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:32:13-44
-52            android:value="2" />
-52-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:33:13-30
-53
-54        <service
-54-->[:firebase_database] C:\Users\Shubham\AndroidStudioProjects\battleship\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
-55            android:name="com.google.firebase.components.ComponentDiscoveryService"
-55-->[:firebase_database] C:\Users\Shubham\AndroidStudioProjects\battleship\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-89
-56            android:directBootAware="true"
-56-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
-57            android:exported="false" >
-57-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Shubham\.gradle\caches\transforms-3\cdcc585bf5bfb7b79234bf5eb0173e42\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:16:13-37
-58            <meta-data
-58-->[:firebase_database] C:\Users\Shubham\AndroidStudioProjects\battleship\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
-59                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
-59-->[:firebase_database] C:\Users\Shubham\AndroidStudioProjects\battleship\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-127
-60                android:value="com.google.firebase.components.ComponentRegistrar" />
-60-->[:firebase_database] C:\Users\Shubham\AndroidStudioProjects\battleship\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
-61            <meta-data
-61-->[:cloud_firestore] C:\Users\Shubham\AndroidStudioProjects\battleship\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
-62                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-62-->[:cloud_firestore] C:\Users\Shubham\AndroidStudioProjects\battleship\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-134
-63                android:value="com.google.firebase.components.ComponentRegistrar" />
-63-->[:cloud_firestore] C:\Users\Shubham\AndroidStudioProjects\battleship\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+16    <permission
+16-->[androidx.core:core:1.9.0] C:\Users\Shubham\.gradle\caches\transforms-3\d9a7bda5b0a0d2fc08828ff145bfcb70\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.battleship.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] C:\Users\Shubham\.gradle\caches\transforms-3\d9a7bda5b0a0d2fc08828ff145bfcb70\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] C:\Users\Shubham\.gradle\caches\transforms-3\d9a7bda5b0a0d2fc08828ff145bfcb70\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.battleship.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] C:\Users\Shubham\.gradle\caches\transforms-3\d9a7bda5b0a0d2fc08828ff145bfcb70\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] C:\Users\Shubham\.gradle\caches\transforms-3\d9a7bda5b0a0d2fc08828ff145bfcb70\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+23        android:name="io.flutter.app.FlutterMultiDexApplication"
+23-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:6:9-42
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] C:\Users\Shubham\.gradle\caches\transforms-3\d9a7bda5b0a0d2fc08828ff145bfcb70\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:7:9-43
+26        android:label="battleship" >
+26-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:5:9-35
+27        <activity
+27-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:8:9-28:20
+28            android:name="com.example.battleship.MainActivity"
+28-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:9:13-41
+29            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+29-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:13:13-163
+30            android:exported="true"
+30-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:10:13-36
+31            android:hardwareAccelerated="true"
+31-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:14:13-47
+32            android:launchMode="singleTop"
+32-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:11:13-43
+33            android:theme="@style/LaunchTheme"
+33-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:12:13-47
+34            android:windowSoftInputMode="adjustResize" >
+34-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:15:13-55
+35
+36            <!--
+37                 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+42-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:20:13-23:17
+43                android:name="io.flutter.embedding.android.NormalTheme"
+43-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:21:15-70
+44                android:resource="@style/NormalTheme" />
+44-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:22:15-52
+45
+46            <intent-filter>
+46-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:24:13-27:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:25:17-68
+47-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:25:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:26:17-76
+49-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:26:27-74
+50            </intent-filter>
+51        </activity>
+52        <!--
+53             Don't delete the meta-data below.
+54             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+55        -->
+56        <meta-data
+56-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:31:9-33:33
+57            android:name="flutterEmbedding"
+57-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:32:13-44
+58            android:value="2" />
+58-->C:\Users\Shubham\AndroidStudioProjects\battleship\android\app\src\main\AndroidManifest.xml:33:13-30
+59
+60        <service
+60-->[:firebase_database] C:\Users\Shubham\AndroidStudioProjects\battleship\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
+61            android:name="com.google.firebase.components.ComponentDiscoveryService"
+61-->[:firebase_database] C:\Users\Shubham\AndroidStudioProjects\battleship\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-89
+62            android:directBootAware="true"
+62-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+63            android:exported="false" >
+63-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Shubham\.gradle\caches\transforms-3\cdcc585bf5bfb7b79234bf5eb0173e42\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:16:13-37
 64            <meta-data
-64-->[:firebase_core] C:\Users\Shubham\AndroidStudioProjects\battleship\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
-65                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-65-->[:firebase_core] C:\Users\Shubham\AndroidStudioProjects\battleship\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+64-->[:firebase_database] C:\Users\Shubham\AndroidStudioProjects\battleship\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+65                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+65-->[:firebase_database] C:\Users\Shubham\AndroidStudioProjects\battleship\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-127
 66                android:value="com.google.firebase.components.ComponentRegistrar" />
-66-->[:firebase_core] C:\Users\Shubham\AndroidStudioProjects\battleship\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+66-->[:firebase_database] C:\Users\Shubham\AndroidStudioProjects\battleship\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
 67            <meta-data
-67-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Shubham\.gradle\caches\transforms-3\cdcc585bf5bfb7b79234bf5eb0173e42\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:17:13-19:85
-68                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
-68-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Shubham\.gradle\caches\transforms-3\cdcc585bf5bfb7b79234bf5eb0173e42\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:18:17-122
+67-->[:cloud_firestore] C:\Users\Shubham\AndroidStudioProjects\battleship\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+68                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+68-->[:cloud_firestore] C:\Users\Shubham\AndroidStudioProjects\battleship\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-134
 69                android:value="com.google.firebase.components.ComponentRegistrar" />
-69-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Shubham\.gradle\caches\transforms-3\cdcc585bf5bfb7b79234bf5eb0173e42\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:19:17-82
+69-->[:cloud_firestore] C:\Users\Shubham\AndroidStudioProjects\battleship\build\cloud_firestore\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
 70            <meta-data
-70-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Shubham\.gradle\caches\transforms-3\cdcc585bf5bfb7b79234bf5eb0173e42\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:20:13-22:85
-71                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-71-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Shubham\.gradle\caches\transforms-3\cdcc585bf5bfb7b79234bf5eb0173e42\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:21:17-111
+70-->[:firebase_core] C:\Users\Shubham\AndroidStudioProjects\battleship\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+71                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+71-->[:firebase_core] C:\Users\Shubham\AndroidStudioProjects\battleship\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
 72                android:value="com.google.firebase.components.ComponentRegistrar" />
-72-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Shubham\.gradle\caches\transforms-3\cdcc585bf5bfb7b79234bf5eb0173e42\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:22:17-82
+72-->[:firebase_core] C:\Users\Shubham\AndroidStudioProjects\battleship\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
 73            <meta-data
-73-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Shubham\.gradle\caches\transforms-3\9a4a327f24126d7060b94b897ce99509\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:29:13-31:85
-74                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
-74-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Shubham\.gradle\caches\transforms-3\9a4a327f24126d7060b94b897ce99509\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:30:17-120
+73-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Shubham\.gradle\caches\transforms-3\cdcc585bf5bfb7b79234bf5eb0173e42\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:17:13-19:85
+74                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+74-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Shubham\.gradle\caches\transforms-3\cdcc585bf5bfb7b79234bf5eb0173e42\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:18:17-122
 75                android:value="com.google.firebase.components.ComponentRegistrar" />
-75-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Shubham\.gradle\caches\transforms-3\9a4a327f24126d7060b94b897ce99509\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:31:17-82
+75-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Shubham\.gradle\caches\transforms-3\cdcc585bf5bfb7b79234bf5eb0173e42\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:19:17-82
 76            <meta-data
-76-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Shubham\.gradle\caches\transforms-3\9a4a327f24126d7060b94b897ce99509\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
-77                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-77-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Shubham\.gradle\caches\transforms-3\9a4a327f24126d7060b94b897ce99509\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:33:17-109
+76-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Shubham\.gradle\caches\transforms-3\cdcc585bf5bfb7b79234bf5eb0173e42\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:20:13-22:85
+77                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+77-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Shubham\.gradle\caches\transforms-3\cdcc585bf5bfb7b79234bf5eb0173e42\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:21:17-111
 78                android:value="com.google.firebase.components.ComponentRegistrar" />
-78-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Shubham\.gradle\caches\transforms-3\9a4a327f24126d7060b94b897ce99509\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:34:17-82
+78-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Shubham\.gradle\caches\transforms-3\cdcc585bf5bfb7b79234bf5eb0173e42\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:22:17-82
 79            <meta-data
-79-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\c9048a169e1b7f286a01eae6f43312f9\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
-80                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
-80-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\c9048a169e1b7f286a01eae6f43312f9\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+79-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Shubham\.gradle\caches\transforms-3\9a4a327f24126d7060b94b897ce99509\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:29:13-31:85
+80                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+80-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Shubham\.gradle\caches\transforms-3\9a4a327f24126d7060b94b897ce99509\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:30:17-120
 81                android:value="com.google.firebase.components.ComponentRegistrar" />
-81-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\c9048a169e1b7f286a01eae6f43312f9\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+81-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Shubham\.gradle\caches\transforms-3\9a4a327f24126d7060b94b897ce99509\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:31:17-82
 82            <meta-data
-82-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
-83                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
-83-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+82-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Shubham\.gradle\caches\transforms-3\9a4a327f24126d7060b94b897ce99509\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:32:13-34:85
+83                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+83-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Shubham\.gradle\caches\transforms-3\9a4a327f24126d7060b94b897ce99509\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:33:17-109
 84                android:value="com.google.firebase.components.ComponentRegistrar" />
-84-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
-85        </service>
-86
-87        <provider
-87-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
-88            android:name="com.google.firebase.provider.FirebaseInitProvider"
-88-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
-89            android:authorities="com.example.battleship.firebaseinitprovider"
-89-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
-90            android:directBootAware="true"
-90-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
-91            android:exported="false"
-91-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
-92            android:initOrder="100" />
-92-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
-93
-94        <uses-library
-94-->[androidx.window:window:1.0.0-beta04] C:\Users\Shubham\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
-95            android:name="androidx.window.extensions"
-95-->[androidx.window:window:1.0.0-beta04] C:\Users\Shubham\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
-96            android:required="false" />
-96-->[androidx.window:window:1.0.0-beta04] C:\Users\Shubham\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
-97        <uses-library
-97-->[androidx.window:window:1.0.0-beta04] C:\Users\Shubham\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
-98            android:name="androidx.window.sidecar"
-98-->[androidx.window:window:1.0.0-beta04] C:\Users\Shubham\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
-99            android:required="false" />
-99-->[androidx.window:window:1.0.0-beta04] C:\Users\Shubham\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
-100
-101        <activity
-101-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Shubham\.gradle\caches\transforms-3\e0a8793a7a85d6e071b7a743c9adf075\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
-102            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-102-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Shubham\.gradle\caches\transforms-3\e0a8793a7a85d6e071b7a743c9adf075\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
-103            android:exported="false"
-103-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Shubham\.gradle\caches\transforms-3\e0a8793a7a85d6e071b7a743c9adf075\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
-104            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-104-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Shubham\.gradle\caches\transforms-3\e0a8793a7a85d6e071b7a743c9adf075\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
-105
-106        <meta-data
-106-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Shubham\.gradle\caches\transforms-3\55b4e390742817dc4b9653e42d791034\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-107            android:name="com.google.android.gms.version"
-107-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Shubham\.gradle\caches\transforms-3\55b4e390742817dc4b9653e42d791034\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-108            android:value="@integer/google_play_services_version" />
-108-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Shubham\.gradle\caches\transforms-3\55b4e390742817dc4b9653e42d791034\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-109    </application>
-110
-111</manifest>
+84-->[com.google.firebase:firebase-database:20.3.0] C:\Users\Shubham\.gradle\caches\transforms-3\9a4a327f24126d7060b94b897ce99509\transformed\jetified-firebase-database-20.3.0\AndroidManifest.xml:34:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\c9048a169e1b7f286a01eae6f43312f9\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+86                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+86-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\c9048a169e1b7f286a01eae6f43312f9\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\c9048a169e1b7f286a01eae6f43312f9\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+89                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+89-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+91        </service>
+92
+93        <provider
+93-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+94            android:name="com.google.firebase.provider.FirebaseInitProvider"
+94-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+95            android:authorities="com.example.battleship.firebaseinitprovider"
+95-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+96            android:directBootAware="true"
+96-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+97            android:exported="false"
+97-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+98            android:initOrder="100" />
+98-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Shubham\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+99
+100        <uses-library
+100-->[androidx.window:window:1.0.0-beta04] C:\Users\Shubham\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+101            android:name="androidx.window.extensions"
+101-->[androidx.window:window:1.0.0-beta04] C:\Users\Shubham\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+102            android:required="false" />
+102-->[androidx.window:window:1.0.0-beta04] C:\Users\Shubham\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+103        <uses-library
+103-->[androidx.window:window:1.0.0-beta04] C:\Users\Shubham\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+104            android:name="androidx.window.sidecar"
+104-->[androidx.window:window:1.0.0-beta04] C:\Users\Shubham\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+105            android:required="false" />
+105-->[androidx.window:window:1.0.0-beta04] C:\Users\Shubham\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+106
+107        <activity
+107-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Shubham\.gradle\caches\transforms-3\e0a8793a7a85d6e071b7a743c9adf075\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+108            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+108-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Shubham\.gradle\caches\transforms-3\e0a8793a7a85d6e071b7a743c9adf075\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+109            android:exported="false"
+109-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Shubham\.gradle\caches\transforms-3\e0a8793a7a85d6e071b7a743c9adf075\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+110-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Shubham\.gradle\caches\transforms-3\e0a8793a7a85d6e071b7a743c9adf075\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+111
+112        <meta-data
+112-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Shubham\.gradle\caches\transforms-3\55b4e390742817dc4b9653e42d791034\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+113            android:name="com.google.android.gms.version"
+113-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Shubham\.gradle\caches\transforms-3\55b4e390742817dc4b9653e42d791034\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+114            android:value="@integer/google_play_services_version" />
+114-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Shubham\.gradle\caches\transforms-3\55b4e390742817dc4b9653e42d791034\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+115    </application>
+116
+117</manifest>

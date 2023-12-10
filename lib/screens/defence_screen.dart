@@ -76,7 +76,7 @@ class _Defence_ScreenState extends State<Defence_Screen> {
     getData();
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.white12,
+        backgroundColor: Colors.black,
         body: Container(
           margin: EdgeInsets.all(12),
           child: Column(

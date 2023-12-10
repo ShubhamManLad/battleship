@@ -21,7 +21,7 @@ class _Home_ScreenState extends State<Home_Screen> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.white12,
+        backgroundColor: Colors.black,
         body: Container(
           margin: EdgeInsets.all(5),
           child: Column(
