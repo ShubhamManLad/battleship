@@ -3,6 +3,7 @@ import 'package:battleship/styles/text_styles.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:audioplayers/audioplayers.dart';
 import 'package:numberpicker/numberpicker.dart';
 import 'package:firebase_database/firebase_database.dart';
 
@@ -116,7 +117,7 @@ class _Attack_ScreenState extends State<Attack_Screen> {
 
   @override
   Widget build(BuildContext context) {
-    getData();
+    //getData();
     return SafeArea(
       child: Scaffold(
         backgroundColor: Colors.white12,
@@ -345,9 +346,14 @@ class _Attack_ScreenState extends State<Attack_Screen> {
       FirebaseFirestore db = FirebaseFirestore.instance;
       var p1 = await db.collection(gameID).doc(opponent).get();
 
+      final player = AudioPlayer();
+      await player.play(AssetSource('sonarping.mp3'));
+      print('playing audio');
+
       setState(() {
         attack_positions.add(position);
         updateStatus("DEFEND", ship_positions, attack_positions);
+
 
 
         var P1 = p1.data();
@@ -362,6 +368,7 @@ class _Attack_ScreenState extends State<Attack_Screen> {
 
         //print(enemy_ships);
         db.collection(gameID).doc(opponent).set(data1);
+
 
 
       });
@@ -391,7 +398,6 @@ class _Attack_ScreenState extends State<Attack_Screen> {
     final docRef = db.collection(gameID);
 
     docRef.doc(opponent).snapshots().listen((event) {
-
       //print(event.data());
       event.data()?.forEach((key, value) {
         event.data()?.forEach((key, value) {
@@ -403,6 +409,11 @@ class _Attack_ScreenState extends State<Attack_Screen> {
               }
               else{
                 opponent_ready = false;
+
+                final player = AudioPlayer();
+                player.play(AssetSource('blast.wav'));
+                print('playing audio');
+
               }
               opponent_status = value;
             });
@@ -431,5 +442,11 @@ class _Attack_ScreenState extends State<Attack_Screen> {
     };
     docRef.set(data);
   }
+
+  void playSound(int note){
+    final player = AudioPlayer();
+    player.play(AssetSource('assets/note1.wav'));
+  }
+
 
 }

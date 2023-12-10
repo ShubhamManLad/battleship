@@ -7,7 +7,10 @@ class Water_Pixel extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.all(1.5),
-      color: Colors.blue[500],
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.all(Radius.circular(8)),
+        color: Colors.blue[500],
+      ),
     );
   }
 }
@@ -19,7 +22,10 @@ class Enemy_Water_Pixel extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.all(1.5),
-      color: Colors.blue[800],
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.all(Radius.circular(8)),
+        color: Colors.blue[800],
+      ),
     );
   }
 }

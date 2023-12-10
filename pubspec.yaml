@@ -39,6 +39,7 @@ dependencies:
   firebase_core: ^2.24.0
   firebase_database: ^10.3.6
   cloud_firestore: ^4.13.3
+  audioplayers: ^5.2.0
 
 dev_dependencies:
   flutter_test:
@@ -64,6 +65,7 @@ flutter:
 
   assets:
     - images/
+    - assets/
 
   fonts:
     - family: supercell
